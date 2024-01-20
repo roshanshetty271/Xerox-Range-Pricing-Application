@@ -1,0 +1,2791 @@
+{
+        "customerList": [
+            {
+                "person": {
+                    "id": "1001",
+                    "firstName": "Emma",
+                    "lastName": "Smith",
+                    "age": 28,
+                    "occupation": "Software Developer"
+                },
+                "orders": [
+                    {
+                        "orderitems": [
+                            {
+                                "selectedproduct": {
+                                    "name": "Latest_Smartphones",
+                                    "floorPrice": 400,
+                                    "ceilingPrice": 1200,
+                                    "targetPricxe": 800
+                                },
+                                "actualPrice": 900,
+                                "quantity": 1,
+                                "customerID": "1001",
+                                "marketName": "WORKING_PROFESSIONAL",
+                                "channel": "WEB"
+                            },
+                            {
+                                "selectedproduct": {
+                                    "name": "High_End_PCs",
+                                    "floorPrice": 700,
+                                    "ceilingPrice": 2500,
+                                    "targetPrice": 1600
+                                },
+                                "actualPrice": 1700,
+                                "quantity": 1,
+                                "customerID": "1001",
+                                "marketName": "WORKING_PROFESSIONAL",
+                                "channel": "WEB"
+                            }
+                        ],
+                        "salesperson": {
+                            "salesorders": [
+                                {
+                                    "productName": "Latest_Smartphones",
+                                    "soldPrice": 900,
+                                    "quantity": 1,
+                                    "customerID": "1001",
+                                    "marketName": "WORKING_PROFESSIONAL",
+                                    "channel": "WEB"
+                                },
+                                {
+                                    "productName": "Reusable_Products",
+                                    "soldPrice": 1700,
+                                    "quantity": 1,
+                                    "customerID": "1001",
+                                    "marketName": "WORKING_PROFESSIONAL",
+                                    "channel": "WEB"
+                                }
+                            ],
+                            "person": {
+                                "id": "102",
+                                "firstName": "Charlotte",
+                                "lastName": "West",
+                                "age": 25,
+                                "occupation": "Sales"
+                            }
+                        },
+                        "mca": {
+                            "market": {
+                                "name": "WORKING_PROFESSIONAL",
+                                "validchannels": [
+                                    {
+                                        "channeltype": "WEB"
+                                    },
+                                    {
+                                        "channeltype": "EMAIL"
+                                    }
+                                ],
+                                "size": 100
+                            },
+                            "channel": {
+                                "channeltype": "WEB"
+                            },
+                            "adbudget": 0,
+                            "solutionofferlist": [
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Latest_Smartphones"
+                                        },
+                                        {
+                                            "name": "High_End_PCs"
+                                        }
+                                    ],
+                                    "price": 2400,
+                                    "ad": null
+                                },
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Budget_Laptops"
+                                        },
+                                        {
+                                            "name": "Online_Courses"
+                                        }
+                                    ],
+                                    "price": 825,
+                                    "ad": null
+                                }
+                            ],
+                            "solutionorderlist": [
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Latest_Smartphones"
+                                        },
+                                        {
+                                            "name": "High_End_PCs"
+                                        }
+                                    ],
+                                    "price": 2400,
+                                    "ad": null
+                                }
+                            ]
+                        },
+                        "status": "in process"
+                    }
+                ],
+                "markets": {
+                    "name": "Working Pros",
+                    "validchannels": [
+                        {
+                            "channeltype": "WEB"
+                        },
+                        {
+                            "channeltype": "EMAIL"
+                        }
+                    ],
+                    "size": 200
+                }
+            },
+            {
+                "person": {
+                    "id": "1002",
+                    "firstName": "Liam",
+                    "lastName": "Johnson",
+                    "age": 34,
+                    "occupation": "Graphic_Designer"
+                },
+                "orders": [
+                    {
+                        "orderitems": [
+                            {
+                                "selectedproduct": {
+                                    "name": "Coworking_Space_Memberships",
+                                    "floorPrice": 100,
+                                    "ceilingPrice": 600,
+                                    "targetPrice": 350
+                                },
+                                "actualPrice": 500,
+                                "quantity": 1,
+                                "customerID": "1002",
+                                "marketName": "FREELANCERS",
+                                "channel": "SOCIAL_MEDIA"
+                            },
+                            {
+                                "selectedproduct": {
+                                    "name": "Creative_Software",
+                                    "floorPrice": 100,
+                                    "ceilingPrice": 700,
+                                    "targetPrice": 1600
+                                },
+                                "actualPrice": 400,
+                                "quantity": 1,
+                                "customerID": "1002",
+                                "marketName": "FREELANCERS",
+                                "channel": "SOCIAL_MEDIA"
+                            }
+                        ],
+                        "salesperson": {
+                            "salesorders": [
+                                {
+                                    "productName": "Coworking_Space_Memberships",
+                                    "soldPrice": 500,
+                                    "quantity": 1,
+                                    "customerID": "1002",
+                                    "marketName": "FREELANCERS",
+                                    "channel": "SOCIAL_MEDIA"
+                                },
+                                {
+                                    "productName": "Creative_Software",
+                                    "soldPrice": 400,
+                                    "quantity": 1,
+                                    "customerID": "1002",
+                                    "marketName": "FREELANCERS",
+                                    "channel": "SOCIAL_MEDIA"
+                                }
+                            ],
+                            "person": {
+                                "id": "101",
+                                "firstName": "Samuel",
+                                "lastName": "Wallace",
+                                "age": 23,
+                                "occupation": "Sales"
+                            }
+                        },
+                        "mca": {
+                            "market": {
+                                "name": "FREELANCERS",
+                                "validchannels": [
+                                    {
+                                        "channeltype": "SOCIAL_MEDIA"
+                                    },
+                                    {
+                                        "channeltype": "EMAIL"
+                                    },
+                                    {
+                                        "channeltype": "LINKED_IN"
+                                    }
+                                ],
+                                "size": 50
+                            },
+                            "channel": {
+                                "channeltype": "SOCIAL_MEDIA"
+                            },
+                            "adbudget": 0,
+                            "solutionofferlist": [
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Coworking_Space_Memberships"
+                                        },
+                                        {
+                                            "name": "Creative_Software"
+                                        }
+                                    ],
+                                    "price": 800,
+                                    "ad": null
+                                },
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Professional_Attire"
+                                        },
+                                        {
+                                            "name": "Productivity_Software"
+                                        }
+                                    ],
+                                    "price": 440,
+                                    "ad": null
+                                }
+                            ],
+                            "solutionorderlist": [
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Coworking_Space_Memberships"
+                                        },
+                                        {
+                                            "name": "Creative_Software"
+                                        }
+                                    ],
+                                    "price": 800,
+                                    "ad": null
+                                }
+                            ]
+                        },
+                        "status": "in process"
+                    }
+                ],
+                "markets": {
+                    "name": "FREELANCERS",
+                    "validchannels": [
+                        {
+                            "channeltype": "SOCIAL_MEDIA"
+                        },
+                        {
+                            "channeltype": "EMAIL"
+                        },
+                        {
+                            "channeltype": "LINKED_IN"
+                        }
+                    ],
+                    "size": 55
+                }
+            },
+            {
+                "person": {
+                    "id": "1003",
+                    "firstName": "Olivia",
+                    "lastName": "Davis",
+                    "age": 30,
+                    "occupation": "Marketing Specialist"
+                },
+                "orders": [
+                    {
+                        "orderitems": [
+                            {
+                                "selectedproduct": {
+                                    "name": "Digital_Marketing_Services",
+                                    "floorPrice": 800,
+                                    "ceilingPrice": 2500,
+                                    "targetPrice": 1500
+                                },
+                                "actualPrice": 1800,
+                                "quantity": 1,
+                                "customerID": "1003",
+                                "marketName": "CORPORATE_MARKETING",
+                                "channel": "EMAIL"
+                            },
+                            {
+                                "selectedproduct": {
+                                    "name": "Promotional_Materials",
+                                    "floorPrice": 200,
+                                    "ceilingPrice": 1000,
+                                    "targetPrice": 500
+                                },
+                                "actualPrice": 600,
+                                "quantity": 1,
+                                "customerID": "1003",
+                                "marketName": "CORPORATE_MARKETING",
+                                "channel": "EMAIL"
+                            }
+                        ],
+                        "salesperson": {
+                            "salesorders": [
+                                {
+                                    "productName": "Digital_Marketing_Services",
+                                    "soldPrice": 1800,
+                                    "quantity": 1,
+                                    "customerID": "1003",
+                                    "marketName": "CORPORATE_MARKETING",
+                                    "channel": "EMAIL"
+                                },
+                                {
+                                    "productName": "Promotional_Materials",
+                                    "soldPrice": 600,
+                                    "quantity": 1,
+                                    "customerID": "1003",
+                                    "marketName": "CORPORATE_MARKETING",
+                                    "channel": "EMAIL"
+                                }
+                            ],
+                            "person": {
+                                "id": "103",
+                                "firstName": "Ethan",
+                                "lastName": "Williams",
+                                "age": 28,
+                                "occupation": "Sales"
+                            }
+                        },
+                        "mca": {
+                            "market": {
+                                "name": "CORPORATE_MARKETING",
+                                "validchannels": [
+                                    {
+                                        "channeltype": "EMAIL"
+                                    },
+                                    {
+                                        "channeltype": "EVENTS"
+                                    }
+                                ],
+                                "size": 87
+                            },
+                            "channel": {
+                                "channeltype": "EMAIL"
+                            },
+                            "adbudget": 0,
+                            "solutionofferlist": [
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Digital_Marketing_Services"
+                                        },
+                                        {
+                                            "name": "Promotional_Materials"
+                                        }
+                                    ],
+                                    "price": 2200,
+                                    "ad": null
+                                },
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Corporate_Event_Planning"
+                                        },
+                                        {
+                                            "name": "Branding_Strategy"
+                                        }
+                                    ],
+                                    "price": 1300,
+                                    "ad": null
+                                }
+                            ],
+                            "solutionorderlist": [
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Digital_Marketing_Services"
+                                        },
+                                        {
+                                            "name": "Promotional_Materials"
+                                        }
+                                    ],
+                                    "price": 2200,
+                                    "ad": null
+                                }
+                            ]
+                        },
+                        "status": "completed"
+                    }
+                ],
+                "markets": {
+                    "name": "Corporate Marketing",
+                    "validchannels": [
+                        {
+                            "channeltype": "EMAIL"
+                        },
+                        {
+                            "channeltype": "EVENTS"
+                        }
+                    ],
+                    "size": 202
+                }
+            },
+            {
+                "person": {
+                    "id": "1004",
+                    "firstName": "Aiden",
+                    "lastName": "Brown",
+                    "age": 25,
+                    "occupation": "Content Writer"
+                },
+                "orders": [
+                    {
+                        "orderitems": [
+                            {
+                                "selectedproduct": {
+                                    "name": "Online_Writing_Courses",
+                                    "floorPrice": 50,
+                                    "ceilingPrice": 300,
+                                    "targetPrice": 150
+                                },
+                                "actualPrice": 120,
+                                "quantity": 1,
+                                "customerID": "1004",
+                                "marketName": "FREELANCERS",
+                                "channel": "ONLINE_FORUMS"
+                            },
+                            {
+                                "selectedproduct": {
+                                    "name": "Professional_Writing_Services",
+                                    "floorPrice": 100,
+                                    "ceilingPrice": 600,
+                                    "targetPrice": 300
+                                },
+                                "actualPrice": 400,
+                                "quantity": 1,
+                                "customerID": "1004",
+                                "marketName": "FREELANCERS",
+                                "channel": "ONLINE_FORUMS"
+                            }
+                        ],
+                        "salesperson": {
+                            "salesorders": [
+                                {
+                                    "productName": "Online_Writing_Courses",
+                                    "soldPrice": 120,
+                                    "quantity": 1,
+                                    "customerID": "1004",
+                                    "marketName": "FREELANCERS",
+                                    "channel": "ONLINE_FORUMS"
+                                },
+                                {
+                                    "productName": "Professional_Writing_Services",
+                                    "soldPrice": 400,
+                                    "quantity": 1,
+                                    "customerID": "1004",
+                                    "marketName": "FREELANCERS",
+                                    "channel": "ONLINE_FORUMS"
+                                }
+                            ],
+                            "person": {
+                                "id": "104",
+                                "firstName": "Grace",
+                                "lastName": "Anderson",
+                                "age": 27,
+                                "occupation": "Sales"
+                            }
+                        },
+                        "mca": {
+                            "market": {
+                                "name": "FREELANCERS",
+                                "validchannels": [
+                                    {
+                                        "channeltype": "ONLINE_FORUMS"
+                                    },
+                                    {
+                                        "channeltype": "SOCIAL_MEDIA"
+                                    }
+                                ],
+                                "size": 298
+                            },
+                            "channel": {
+                                "channeltype": "ONLINE_FORUMS"
+                            },
+                            "adbudget": 0,
+                            "solutionofferlist": [
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Online_Writing_Courses"
+                                        },
+                                        {
+                                            "name": "Professional_Writing_Services"
+                                        }
+                                    ],
+                                    "price": 480,
+                                    "ad": null
+                                },
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Creative_Writing_Workshops"
+                                        },
+                                        {
+                                            "name": "Editing_Services"
+                                        }
+                                    ],
+                                    "price": 300,
+                                    "ad": null
+                                }
+                            ],
+                            "solutionorderlist": [
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Online_Writing_Courses"
+                                        },
+                                        {
+                                            "name": "Professional_Writing_Services"
+                                        }
+                                    ],
+                                    "price": 480,
+                                    "ad": null
+                                }
+                            ]
+                        },
+                        "status": "completed"
+                    }
+                ],
+                "markets": {
+                    "name": "Freelancers",
+                    "validchannels": [
+                        {
+                            "channeltype": "ONLINE_FORUMS"
+                        },
+                        {
+                            "channeltype": "SOCIAL_MEDIA"
+                        }
+                    ],
+                    "size": 300
+                }
+            },
+            {
+                "person": {
+                    "id": "1005",
+                    "firstName": "Sophia",
+                    "lastName": "Taylor",
+                    "age": 32,
+                    "occupation": "Architect"
+                },
+                "orders": [
+                    {
+                        "orderitems": [
+                            {
+                                "selectedproduct": {
+                                    "name": "Architectural_Design_Services",
+                                    "floorPrice": 1500,
+                                    "ceilingPrice": 5000,
+                                    "targetPrice": 3000
+                                },
+                                "actualPrice": 3800,
+                                "quantity": 1,
+                                "customerID": "1005",
+                                "marketName": "ARCHITECTS",
+                                "channel": "WEBSITE"
+                            },
+                            {
+                                "selectedproduct": {
+                                    "name": "3D_Modeling_Software",
+                                    "floorPrice": 300,
+                                    "ceilingPrice": 1200,
+                                    "targetPrice": 700
+                                },
+                                "actualPrice": 1000,
+                                "quantity": 1,
+                                "customerID": "1005",
+                                "marketName": "ARCHITECTS",
+                                "channel": "WEBSITE"
+                            }
+                        ],
+                        "salesperson": {
+                            "salesorders": [
+                                {
+                                    "productName": "Architectural_Design_Services",
+                                    "soldPrice": 3800,
+                                    "quantity": 1,
+                                    "customerID": "1005",
+                                    "marketName": "ARCHITECTS",
+                                    "channel": "WEBSITE"
+                                },
+                                {
+                                    "productName": "3D_Modeling_Software",
+                                    "soldPrice": 1000,
+                                    "quantity": 1,
+                                    "customerID": "1005",
+                                    "marketName": "ARCHITECTS",
+                                    "channel": "WEBSITE"
+                                }
+                            ],
+                            "person": {
+                                "id": "105",
+                                "firstName": "Andrew",
+                                "lastName": "Hill",
+                                "age": 31,
+                                "occupation": "Sales"
+                            }
+                        },
+                        "mca": {
+                            "market": {
+                                "name": "ARCHITECTS",
+                                "validchannels": [
+                                    {
+                                        "channeltype": "WEBSITE"
+                                    },
+                                    {
+                                        "channeltype": "SOCIAL_MEDIA"
+                                    }
+                                ],
+                                "size": 265
+                            },
+                            "channel": {
+                                "channeltype": "WEBSITE"
+                            },
+                            "adbudget": 0,
+                            "solutionofferlist": [
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Architectural_Design_Services"
+                                        },
+                                        {
+                                            "name": "3D_Modeling_Software"
+                                        }
+                                    ],
+                                    "price": 4800,
+                                    "ad": null
+                                },
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Construction_Management_Software"
+                                        },
+                                        {
+                                            "name": "Project_Management_Training"
+                                        }
+                                    ],
+                                    "price": 2000,
+                                    "ad": null
+                                }
+                            ],
+                            "solutionorderlist": [
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Architectural_Design_Services"
+                                        },
+                                        {
+                                            "name": "3D_Modeling_Software"
+                                        }
+                                    ],
+                                    "price": 4800,
+                                    "ad": null
+                                }
+                            ]
+                        },
+                        "status": "in process"
+                    }
+                ],
+                "markets": {
+                    "name": "Architects",
+                    "validchannels": [
+                        {
+                            "channeltype": "WEBSITE"
+                        },
+                        {
+                            "channeltype": "SOCIAL_MEDIA"
+                        }
+                    ],
+                    "size": 176
+                }
+            },
+            {
+                "person": {
+                    "id": "1007",
+                    "firstName": "Mia",
+                    "lastName": "Wilson",
+                    "age": 27,
+                    "occupation": "Event Planner"
+                },
+                "orders": [
+                    {
+                        "orderitems": [
+                            {
+                                "selectedproduct": {
+                                    "name": "Event_Planning_Services",
+                                    "floorPrice": 1000,
+                                    "ceilingPrice": 5000,
+                                    "targetPrice": 2500
+                                },
+                                "actualPrice": 3000,
+                                "quantity": 1,
+                                "customerID": "1007",
+                                "marketName": "EVENT_PLANNERS",
+                                "channel": "WEBSITE"
+                            },
+                            {
+                                "selectedproduct": {
+                                    "name": "Venue_Decoration_Packages",
+                                    "floorPrice": 500,
+                                    "ceilingPrice": 2000,
+                                    "targetPrice": 1200
+                                },
+                                "actualPrice": 1500,
+                                "quantity": 1,
+                                "customerID": "1007",
+                                "marketName": "EVENT_PLANNERS",
+                                "channel": "WEBSITE"
+                            }
+                        ],
+                        "salesperson": {
+                            "salesorders": [
+                                {
+                                    "productName": "Event_Planning_Services",
+                                    "soldPrice": 3000,
+                                    "quantity": 1,
+                                    "customerID": "1007",
+                                    "marketName": "EVENT_PLANNERS",
+                                    "channel": "WEBSITE"
+                                },
+                                {
+                                    "productName": "Venue_Decoration_Packages",
+                                    "soldPrice": 1500,
+                                    "quantity": 1,
+                                    "customerID": "1007",
+                                    "marketName": "EVENT_PLANNERS",
+                                    "channel": "WEBSITE"
+                                }
+                            ],
+                            "person": {
+                                "id": "106",
+                                "firstName": "Nathan",
+                                "lastName": "Scott",
+                                "age": 30,
+                                "occupation": "Sales"
+                            }
+                        },
+                        "mca": {
+                            "market": {
+                                "name": "EVENT_PLANNERS",
+                                "validchannels": [
+                                    {
+                                        "channeltype": "WEBSITE"
+                                    },
+                                    {
+                                        "channeltype": "SOCIAL_MEDIA"
+                                    }
+                                ],
+                                "size": 187
+                            },
+                            "channel": {
+                                "channeltype": "WEBSITE"
+                            },
+                            "adbudget": 0,
+                            "solutionofferlist": [
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Event_Planning_Services"
+                                        },
+                                        {
+                                            "name": "Venue_Decoration_Packages"
+                                        }
+                                    ],
+                                    "price": 3500,
+                                    "ad": null
+                                },
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Catering_Services"
+                                        },
+                                        {
+                                            "name": "Photography_and_Videography"
+                                        }
+                                    ],
+                                    "price": 1800,
+                                    "ad": null
+                                }
+                            ],
+                            "solutionorderlist": [
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Event_Planning_Services"
+                                        },
+                                        {
+                                            "name": "Venue_Decoration_Packages"
+                                        }
+                                    ],
+                                    "price": 3500,
+                                    "ad": null
+                                }
+                            ]
+                        },
+                        "status": "in process"
+                    }
+                ],
+                "markets": {
+                    "name": "Event Planners",
+                    "validchannels": [
+                        {
+                            "channeltype": "WEBSITE"
+                        },
+                        {
+                            "channeltype": "SOCIAL_MEDIA"
+                        }
+                    ],
+                    "size": 245
+                }
+            },
+            {
+                "person": {
+                    "id": "1008",
+                    "firstName": "Elijah",
+                    "lastName": "Clark",
+                    "age": 33,
+                    "occupation": "Fitness Trainer"
+                },
+                "orders": [
+                    {
+                        "orderitems": [
+                            {
+                                "selectedproduct": {
+                                    "name": "Personal_Training_Sessions",
+                                    "floorPrice": 50,
+                                    "ceilingPrice": 300,
+                                    "targetPrice": 150
+                                },
+                                "actualPrice": 200,
+                                "quantity": 1,
+                                "customerID": "1008",
+                                "marketName": "FITNESS_ENTHUSIASTS",
+                                "channel": "SOCIAL_MEDIA"
+                            },
+                            {
+                                "selectedproduct": {
+                                    "name": "Nutrition_Consultation",
+                                    "floorPrice": 30,
+                                    "ceilingPrice": 150,
+                                    "targetPrice": 80
+                                },
+                                "actualPrice": 100,
+                                "quantity": 1,
+                                "customerID": "1008",
+                                "marketName": "FITNESS_ENTHUSIASTS",
+                                "channel": "SOCIAL_MEDIA"
+                            }
+                        ],
+                        "salesperson": {
+                            "salesorders": [
+                                {
+                                    "productName": "Personal_Training_Sessions",
+                                    "soldPrice": 200,
+                                    "quantity": 1,
+                                    "customerID": "1008",
+                                    "marketName": "FITNESS_ENTHUSIASTS",
+                                    "channel": "SOCIAL_MEDIA"
+                                },
+                                {
+                                    "productName": "Nutrition_Consultation",
+                                    "soldPrice": 100,
+                                    "quantity": 1,
+                                    "customerID": "1008",
+                                    "marketName": "FITNESS_ENTHUSIASTS",
+                                    "channel": "SOCIAL_MEDIA"
+                                }
+                            ],
+                            "person": {
+                                "id": "107",
+                                "firstName": "Isabella",
+                                "lastName": "Martin",
+                                "age": 29,
+                                "occupation": "Sales"
+                            }
+                        },
+                        "mca": {
+                            "market": {
+                                "name": "FITNESS_ENTHUSIASTS",
+                                "validchannels": [
+                                    {
+                                        "channeltype": "SOCIAL_MEDIA"
+                                    },
+                                    {
+                                        "channeltype": "FITNESS_APPS"
+                                    }
+                                ],
+                                "size": 56
+                            },
+                            "channel": {
+                                "channeltype": "SOCIAL_MEDIA"
+                            },
+                            "adbudget": 0,
+                            "solutionofferlist": [
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Personal_Training_Sessions"
+                                        },
+                                        {
+                                            "name": "Nutrition_Consultation"
+                                        }
+                                    ],
+                                    "price": 250,
+                                    "ad": null
+                                },
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Fitness_Workout_Plans"
+                                        },
+                                        {
+                                            "name": "Wellness_Coaching"
+                                        }
+                                    ],
+                                    "price": 120,
+                                    "ad": null
+                                }
+                            ],
+                            "solutionorderlist": [
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Personal_Training_Sessions"
+                                        },
+                                        {
+                                            "name": "Nutrition_Consultation"
+                                        }
+                                    ],
+                                    "price": 250,
+                                    "ad": null
+                                }
+                            ]
+                        },
+                        "status": "completed"
+                    }
+                ],
+                "markets": {
+                    "name": "Fitness Enthusiasts",
+                    "validchannels": [
+                        {
+                            "channeltype": "SOCIAL_MEDIA"
+                        },
+                        {
+                            "channeltype": "FITNESS_APPS"
+                        }
+                    ],
+                    "size": 342
+                }
+            },
+            {
+                "person": {
+                    "id": "1009",
+                    "firstName": "Ava",
+                    "lastName": "Thompson",
+                    "age": 26,
+                    "occupation": "Graphic Designer"
+                },
+                "orders": [
+                    {
+                        "orderitems": [
+                            {
+                                "selectedproduct": {
+                                    "name": "Graphic_Design_Services",
+                                    "floorPrice": 200,
+                                    "ceilingPrice": 1000,
+                                    "targetPrice": 500
+                                },
+                                "actualPrice": 700,
+                                "quantity": 1,
+                                "customerID": "1009",
+                                "marketName": "CREATIVE_PROFESSIONALS",
+                                "channel": "ONLINE_FORUMS"
+                            },
+                            {
+                                "selectedproduct": {
+                                    "name": "Logo_Design",
+                                    "floorPrice": 100,
+                                    "ceilingPrice": 500,
+                                    "targetPrice": 300
+                                },
+                                "actualPrice": 400,
+                                "quantity": 1,
+                                "customerID": "1009",
+                                "marketName": "CREATIVE_PROFESSIONALS",
+                                "channel": "ONLINE_FORUMS"
+                            }
+                        ],
+                        "salesperson": {
+                            "salesorders": [
+                                {
+                                    "productName": "Graphic_Design_Services",
+                                    "soldPrice": 700,
+                                    "quantity": 1,
+                                    "customerID": "1009",
+                                    "marketName": "CREATIVE_PROFESSIONALS",
+                                    "channel": "ONLINE_FORUMS"
+                                },
+                                {
+                                    "productName": "Logo_Design",
+                                    "soldPrice": 400,
+                                    "quantity": 1,
+                                    "customerID": "1009",
+                                    "marketName": "CREATIVE_PROFESSIONALS",
+                                    "channel": "ONLINE_FORUMS"
+                                }
+                            ],
+                            "person": {
+                                "id": "108",
+                                "firstName": "Noah",
+                                "lastName": "Perez",
+                                "age": 28,
+                                "occupation": "Sales"
+                            }
+                        },
+                        "mca": {
+                            "market": {
+                                "name": "CREATIVE_PROFESSIONALS",
+                                "validchannels": [
+                                    {
+                                        "channeltype": "ONLINE_FORUMS"
+                                    },
+                                    {
+                                        "channeltype": "SOCIAL_MEDIA"
+                                    }
+                                ],
+                                "size": 564
+                            },
+                            "channel": {
+                                "channeltype": "ONLINE_FORUMS"
+                            },
+                            "adbudget": 0,
+                            "solutionofferlist": [
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Graphic_Design_Services"
+                                        },
+                                        {
+                                            "name": "Logo_Design"
+                                        }
+                                    ],
+                                    "price": 800,
+                                    "ad": null
+                                },
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Brand_Identity_Consultation"
+                                        },
+                                        {
+                                            "name": "Print_Design_Solutions"
+                                        }
+                                    ],
+                                    "price": 500,
+                                    "ad": null
+                                }
+                            ],
+                            "solutionorderlist": [
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Graphic_Design_Services"
+                                        },
+                                        {
+                                            "name": "Logo_Design"
+                                        }
+                                    ],
+                                    "price": 800,
+                                    "ad": null
+                                }
+                            ]
+                        },
+                        "status": "in process"
+                    }
+                ],
+                "markets": {
+                    "name": "Creative Professionals",
+                    "validchannels": [
+                        {
+                            "channeltype": "ONLINE_FORUMS"
+                        },
+                        {
+                            "channeltype": "SOCIAL_MEDIA"
+                        }
+                    ],
+                    "size": 67
+                }
+            },
+            {
+                "person": {
+                    "id": "1010",
+                    "firstName": "Olivia",
+                    "lastName": "Harrison",
+                    "age": 31,
+                    "occupation": "Interior Designer"
+                },
+                "orders": [
+                    {
+                        "orderitems": [
+                            {
+                                "selectedproduct": {
+                                    "name": "Interior_Design_Consultation",
+                                    "floorPrice": 800,
+                                    "ceilingPrice": 3000,
+                                    "targetPrice": 1500
+                                },
+                                "actualPrice": 2000,
+                                "quantity": 1,
+                                "customerID": "1010",
+                                "marketName": "DESIGN_PROFESSIONALS",
+                                "channel": "WEBSITE"
+                            },
+                            {
+                                "selectedproduct": {
+                                    "name": "Furniture_and_Decor",
+                                    "floorPrice": 500,
+                                    "ceilingPrice": 2500,
+                                    "targetPrice": 1200
+                                },
+                                "actualPrice": 1500,
+                                "quantity": 1,
+                                "customerID": "1010",
+                                "marketName": "DESIGN_PROFESSIONALS",
+                                "channel": "WEBSITE"
+                            }
+                        ],
+                        "salesperson": {
+                            "salesorders": [
+                                {
+                                    "productName": "Interior_Design_Consultation",
+                                    "soldPrice": 2000,
+                                    "quantity": 1,
+                                    "customerID": "1010",
+                                    "marketName": "DESIGN_PROFESSIONALS",
+                                    "channel": "WEBSITE"
+                                },
+                                {
+                                    "productName": "Furniture_and_Decor",
+                                    "soldPrice": 1500,
+                                    "quantity": 1,
+                                    "customerID": "1010",
+                                    "marketName": "DESIGN_PROFESSIONALS",
+                                    "channel": "WEBSITE"
+                                }
+                            ],
+                            "person": {
+                                "id": "109",
+                                "firstName": "Ethan",
+                                "lastName": "Ward",
+                                "age": 29,
+                                "occupation": "Sales"
+                            }
+                        },
+                        "mca": {
+                            "market": {
+                                "name": "DESIGN_PROFESSIONALS",
+                                "validchannels": [
+                                    {
+                                        "channeltype": "WEBSITE"
+                                    },
+                                    {
+                                        "channeltype": "SOCIAL_MEDIA"
+                                    }
+                                ],
+                                "size": 27
+                            },
+                            "channel": {
+                                "channeltype": "WEBSITE"
+                            },
+                            "adbudget": 0,
+                            "solutionofferlist": [
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Interior_Design_Consultation"
+                                        },
+                                        {
+                                            "name": "Furniture_and_Decor"
+                                        }
+                                    ],
+                                    "price": 2500,
+                                    "ad": null
+                                },
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Custom_Lighting_Solutions"
+                                        },
+                                        {
+                                            "name": "Artisanal_Home_Accessories"
+                                        }
+                                    ],
+                                    "price": 1200,
+                                    "ad": null
+                                }
+                            ],
+                            "solutionorderlist": [
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Interior_Design_Consultation"
+                                        },
+                                        {
+                                            "name": "Furniture_and_Decor"
+                                        }
+                                    ],
+                                    "price": 2500,
+                                    "ad": null
+                                }
+                            ]
+                        },
+                        "status": "completed"
+                    }
+                ],
+                "markets": {
+                    "name": "Design Professionals",
+                    "validchannels": [
+                        {
+                            "channeltype": "WEBSITE"
+                        },
+                        {
+                            "channeltype": "SOCIAL_MEDIA"
+                        }
+                    ],
+                    "size": 62
+                }
+            },
+            {
+                "person": {
+                    "id": "1011",
+                    "firstName": "William",
+                    "lastName": "Carter",
+                    "age": 35,
+                    "occupation": "Financial Analyst"
+                },
+                "orders": [
+                    {
+                        "orderitems": [
+                            {
+                                "selectedproduct": {
+                                    "name": "Financial_Consultation",
+                                    "floorPrice": 500,
+                                    "ceilingPrice": 2000,
+                                    "targetPrice": 1000
+                                },
+                                "actualPrice": 1500,
+                                "quantity": 1,
+                                "customerID": "1011",
+                                "marketName": "FINANCE_PROFESSIONALS",
+                                "channel": "EMAIL"
+                            },
+                            {
+                                "selectedproduct": {
+                                    "name": "Investment_Portfolio_Management",
+                                    "floorPrice": 1000,
+                                    "ceilingPrice": 5000,
+                                    "targetPrice": 3000
+                                },
+                                "actualPrice": 4500,
+                                "quantity": 1,
+                                "customerID": "1011",
+                                "marketName": "FINANCE_PROFESSIONALS",
+                                "channel": "EMAIL"
+                            }
+                        ],
+                        "salesperson": {
+                            "salesorders": [
+                                {
+                                    "productName": "Financial_Consultation",
+                                    "soldPrice": 1500,
+                                    "quantity": 1,
+                                    "customerID": "1011",
+                                    "marketName": "FINANCE_PROFESSIONALS",
+                                    "channel": "EMAIL"
+                                },
+                                {
+                                    "productName": "Investment_Portfolio_Management",
+                                    "soldPrice": 4500,
+                                    "quantity": 1,
+                                    "customerID": "1011",
+                                    "marketName": "FINANCE_PROFESSIONALS",
+                                    "channel": "EMAIL"
+                                }
+                            ],
+                            "person": {
+                                "id": "110",
+                                "firstName": "Aria",
+                                "lastName": "Stewart",
+                                "age": 32,
+                                "occupation": "Sales"
+                            }
+                        },
+                        "mca": {
+                            "market": {
+                                "name": "FINANCE_PROFESSIONALS",
+                                "validchannels": [
+                                    {
+                                        "channeltype": "EMAIL"
+                                    },
+                                    {
+                                        "channeltype": "FINANCE_MAGAZINES"
+                                    }
+                                ],
+                                "size": 163
+                            },
+                            "channel": {
+                                "channeltype": "EMAIL"
+                            },
+                            "adbudget": 0,
+                            "solutionofferlist": [
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Financial_Consultation"
+                                        },
+                                        {
+                                            "name": "Investment_Portfolio_Management"
+                                        }
+                                    ],
+                                    "price": 5500,
+                                    "ad": null
+                                },
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Tax_Planning_Services"
+                                        },
+                                        {
+                                            "name": "Retirement_Planning"
+                                        }
+                                    ],
+                                    "price": 3000,
+                                    "ad": null
+                                }
+                            ],
+                            "solutionorderlist": [
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Financial_Consultation"
+                                        },
+                                        {
+                                            "name": "Investment_Portfolio_Management"
+                                        }
+                                    ],
+                                    "price": 5500,
+                                    "ad": null
+                                }
+                            ]
+                        },
+                        "status": "in process"
+                    }
+                ],
+                "markets": {
+                    "name": "Finance Professionals",
+                    "validchannels": [
+                        {
+                            "channeltype": "EMAIL"
+                        },
+                        {
+                            "channeltype": "FINANCE_MAGAZINES"
+                        }
+                    ],
+                    "size": 267
+                }
+            },
+            {
+                "person": {
+                    "id": "1012",
+                    "firstName": "Sophia",
+                    "lastName": "Collins",
+                    "age": 29,
+                    "occupation": "Marketing Specialist"
+                },
+                "orders": [
+                    {
+                        "orderitems": [
+                            {
+                                "selectedproduct": {
+                                    "name": "Digital_Marketing_Consultation",
+                                    "floorPrice": 800,
+                                    "ceilingPrice": 3000,
+                                    "targetPrice": 1500
+                                },
+                                "actualPrice": 2000,
+                                "quantity": 1,
+                                "customerID": "1012",
+                                "marketName": "MARKETING_PROFESSIONALS",
+                                "channel": "SOCIAL_MEDIA"
+                            },
+                            {
+                                "selectedproduct": {
+                                    "name": "Social_Media_Campaigns",
+                                    "floorPrice": 500,
+                                    "ceilingPrice": 2500,
+                                    "targetPrice": 1200
+                                },
+                                "actualPrice": 1500,
+                                "quantity": 1,
+                                "customerID": "1012",
+                                "marketName": "MARKETING_PROFESSIONALS",
+                                "channel": "SOCIAL_MEDIA"
+                            }
+                        ],
+                        "salesperson": {
+                            "salesorders": [
+                                {
+                                    "productName": "Digital_Marketing_Consultation",
+                                    "soldPrice": 2000,
+                                    "quantity": 1,
+                                    "customerID": "1012",
+                                    "marketName": "MARKETING_PROFESSIONALS",
+                                    "channel": "SOCIAL_MEDIA"
+                                },
+                                {
+                                    "productName": "Social_Media_Campaigns",
+                                    "soldPrice": 1500,
+                                    "quantity": 1,
+                                    "customerID": "1012",
+                                    "marketName": "MARKETING_PROFESSIONALS",
+                                    "channel": "SOCIAL_MEDIA"
+                                }
+                            ],
+                            "person": {
+                                "id": "111",
+                                "firstName": "Liam",
+                                "lastName": "Rogers",
+                                "age": 28,
+                                "occupation": "Sales"
+                            }
+                        },
+                        "mca": {
+                            "market": {
+                                "name": "MARKETING_PROFESSIONALS",
+                                "validchannels": [
+                                    {
+                                        "channeltype": "SOCIAL_MEDIA"
+                                    },
+                                    {
+                                        "channeltype": "MARKETING_BLOGS"
+                                    }
+                                ],
+                                "size": 34
+                            },
+                            "channel": {
+                                "channeltype": "SOCIAL_MEDIA"
+                            },
+                            "adbudget": 0,
+                            "solutionofferlist": [
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Digital_Marketing_Consultation"
+                                        },
+                                        {
+                                            "name": "Social_Media_Campaigns"
+                                        }
+                                    ],
+                                    "price": 2500,
+                                    "ad": null
+                                },
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Content_Marketing_Strategy"
+                                        },
+                                        {
+                                            "name": "Search_Engine_Optimization"
+                                        }
+                                    ],
+                                    "price": 1200,
+                                    "ad": null
+                                }
+                            ],
+                            "solutionorderlist": [
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Digital_Marketing_Consultation"
+                                        },
+                                        {
+                                            "name": "Social_Media_Campaigns"
+                                        }
+                                    ],
+                                    "price": 2500,
+                                    "ad": null
+                                }
+                            ]
+                        },
+                        "status": "in process"
+                    }
+                ],
+                "markets": {
+                    "name": "Marketing Professionals",
+                    "validchannels": [
+                        {
+                            "channeltype": "SOCIAL_MEDIA"
+                        },
+                        {
+                            "channeltype": "MARKETING_BLOGS"
+                        }
+                    ],
+                    "size": 245
+                }
+            },
+            {
+                "person": {
+                    "id": "1013",
+                    "firstName": "Mia",
+                    "lastName": "Allen",
+                    "age": 27,
+                    "occupation": "Event Planner"
+                },
+                "orders": [
+                    {
+                        "orderitems": [
+                            {
+                                "selectedproduct": {
+                                    "name": "Event_Planning_Services",
+                                    "floorPrice": 1000,
+                                    "ceilingPrice": 5000,
+                                    "targetPrice": 2500
+                                },
+                                "actualPrice": 3000,
+                                "quantity": 1,
+                                "customerID": "1013",
+                                "marketName": "EVENT_PROFESSIONALS",
+                                "channel": "EMAIL"
+                            },
+                            {
+                                "selectedproduct": {
+                                    "name": "Venue_Decoration_Package",
+                                    "floorPrice": 500,
+                                    "ceilingPrice": 2500,
+                                    "targetPrice": 1200
+                                },
+                                "actualPrice": 1500,
+                                "quantity": 1,
+                                "customerID": "1013",
+                                "marketName": "EVENT_PROFESSIONALS",
+                                "channel": "EMAIL"
+                            }
+                        ],
+                        "salesperson": {
+                            "salesorders": [
+                                {
+                                    "productName": "Event_Planning_Services",
+                                    "soldPrice": 3000,
+                                    "quantity": 1,
+                                    "customerID": "1013",
+                                    "marketName": "EVENT_PROFESSIONALS",
+                                    "channel": "EMAIL"
+                                },
+                                {
+                                    "productName": "Venue_Decoration_Package",
+                                    "soldPrice": 1500,
+                                    "quantity": 1,
+                                    "customerID": "1013",
+                                    "marketName": "EVENT_PROFESSIONALS",
+                                    "channel": "EMAIL"
+                                }
+                            ],
+                            "person": {
+                                "id": "112",
+                                "firstName": "Ella",
+                                "lastName": "Barnes",
+                                "age": 31,
+                                "occupation": "Sales"
+                            }
+                        },
+                        "mca": {
+                            "market": {
+                                "name": "EVENT_PROFESSIONALS",
+                                "validchannels": [
+                                    {
+                                        "channeltype": "EMAIL"
+                                    },
+                                    {
+                                        "channeltype": "EVENT_PLANNING_WEBSITES"
+                                    }
+                                ],
+                                "size": 16
+                            },
+                            "channel": {
+                                "channeltype": "EMAIL"
+                            },
+                            "adbudget": 0,
+                            "solutionofferlist": [
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Event_Planning_Services"
+                                        },
+                                        {
+                                            "name": "Venue_Decoration_Package"
+                                        }
+                                    ],
+                                    "price": 3700,
+                                    "ad": null
+                                },
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Catering_Services"
+                                        },
+                                        {
+                                            "name": "Entertainment_Performers"
+                                        }
+                                    ],
+                                    "price": 2000,
+                                    "ad": null
+                                }
+                            ],
+                            "solutionorderlist": [
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Event_Planning_Services"
+                                        },
+                                        {
+                                            "name": "Venue_Decoration_Package"
+                                        }
+                                    ],
+                                    "price": 3700,
+                                    "ad": null
+                                }
+                            ]
+                        },
+                        "status": "in process"
+                    }
+                ],
+                "markets": {
+                    "name": "Event Professionals",
+                    "validchannels": [
+                        {
+                            "channeltype": "EMAIL"
+                        },
+                        {
+                            "channeltype": "EVENT_PLANNING_WEBSITES"
+                        }
+                    ],
+                    "size": 265
+                }
+            },
+            {
+                "person": {
+                    "id": "1014",
+                    "firstName": "James",
+                    "lastName": "Clark",
+                    "age": 33,
+                    "occupation": "Architect"
+                },
+                "orders": [
+                    {
+                        "orderitems": [
+                            {
+                                "selectedproduct": {
+                                    "name": "Architectural_Design_Services",
+                                    "floorPrice": 1500,
+                                    "ceilingPrice": 8000,
+                                    "targetPrice": 4000
+                                },
+                                "actualPrice": 5500,
+                                "quantity": 1,
+                                "customerID": "1014",
+                                "marketName": "ARCHITECT_PROFESSIONALS",
+                                "channel": "WEBSITE"
+                            },
+                            {
+                                "selectedproduct": {
+                                    "name": "Green_Building_Consultation",
+                                    "floorPrice": 1000,
+                                    "ceilingPrice": 5000,
+                                    "targetPrice": 2500
+                                },
+                                "actualPrice": 3000,
+                                "quantity": 1,
+                                "customerID": "1014",
+                                "marketName": "ARCHITECT_PROFESSIONALS",
+                                "channel": "WEBSITE"
+                            }
+                        ],
+                        "salesperson": {
+                            "salesorders": [
+                                {
+                                    "productName": "Architectural_Design_Services",
+                                    "soldPrice": 5500,
+                                    "quantity": 1,
+                                    "customerID": "1014",
+                                    "marketName": "ARCHITECT_PROFESSIONALS",
+                                    "channel": "WEBSITE"
+                                },
+                                {
+                                    "productName": "Green_Building_Consultation",
+                                    "soldPrice": 3000,
+                                    "quantity": 1,
+                                    "customerID": "1014",
+                                    "marketName": "ARCHITECT_PROFESSIONALS",
+                                    "channel": "WEBSITE"
+                                }
+                            ],
+                            "person": {
+                                "id": "113",
+                                "firstName": "Jack",
+                                "lastName": "Fisher",
+                                "age": 30,
+                                "occupation": "Sales"
+                            }
+                        },
+                        "mca": {
+                            "market": {
+                                "name": "ARCHITECT_PROFESSIONALS",
+                                "validchannels": [
+                                    {
+                                        "channeltype": "WEBSITE"
+                                    },
+                                    {
+                                        "channeltype": "ARCHITECTURAL_MAGAZINES"
+                                    }
+                                ],
+                                "size": 172
+                            },
+                            "channel": {
+                                "channeltype": "WEBSITE"
+                            },
+                            "adbudget": 0,
+                            "solutionofferlist": [
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Architectural_Design_Services"
+                                        },
+                                        {
+                                            "name": "Green_Building_Consultation"
+                                        }
+                                    ],
+                                    "price": 8000,
+                                    "ad": null
+                                },
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Sustainable_Materials"
+                                        },
+                                        {
+                                            "name": "Modern_Architecture_Books"
+                                        }
+                                    ],
+                                    "price": 4500,
+                                    "ad": null
+                                }
+                            ],
+                            "solutionorderlist": [
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Architectural_Design_Services"
+                                        },
+                                        {
+                                            "name": "Green_Building_Consultation"
+                                        }
+                                    ],
+                                    "price": 8000,
+                                    "ad": null
+                                }
+                            ]
+                        },
+                        "status": "in process"
+                    }
+                ],
+                "markets": {
+                    "name": "Architect Professionals",
+                    "validchannels": [
+                        {
+                            "channeltype": "WEBSITE"
+                        },
+                        {
+                            "channeltype": "ARCHITECTURAL_MAGAZINES"
+                        }
+                    ],
+                    "size": 76
+                }
+            },
+            {
+                "person": {
+                    "id": "1015",
+                    "firstName": "Amelia",
+                    "lastName": "Cox",
+                    "age": 28,
+                    "occupation": "Human Resources Specialist"
+                },
+                "orders": [
+                    {
+                        "orderitems": [
+                            {
+                                "selectedproduct": {
+                                    "name": "Employee_Training_Services",
+                                    "floorPrice": 1000,
+                                    "ceilingPrice": 5000,
+                                    "targetPrice": 2500
+                                },
+                                "actualPrice": 3000,
+                                "quantity": 1,
+                                "customerID": "1015",
+                                "marketName": "HR_PROFESSIONALS",
+                                "channel": "WEB"
+                            },
+                            {
+                                "selectedproduct": {
+                                    "name": "Talent_Acquisition_Consultation",
+                                    "floorPrice": 1500,
+                                    "ceilingPrice": 8000,
+                                    "targetPrice": 4000
+                                },
+                                "actualPrice": 5500,
+                                "quantity": 1,
+                                "customerID": "1015",
+                                "marketName": "HR_PROFESSIONALS",
+                                "channel": "WEB"
+                            }
+                        ],
+                        "salesperson": {
+                            "salesorders": [
+                                {
+                                    "productName": "Employee_Training_Services",
+                                    "soldPrice": 3000,
+                                    "quantity": 1,
+                                    "customerID": "1015",
+                                    "marketName": "HR_PROFESSIONALS",
+                                    "channel": "WEB"
+                                },
+                                {
+                                    "productName": "Talent_Acquisition_Consultation",
+                                    "soldPrice": 5500,
+                                    "quantity": 1,
+                                    "customerID": "1015",
+                                    "marketName": "HR_PROFESSIONALS",
+                                    "channel": "WEB"
+                                }
+                            ],
+                            "person": {
+                                "id": "114",
+                                "firstName": "Aiden",
+                                "lastName": "Murray",
+                                "age": 29,
+                                "occupation": "Sales"
+                            }
+                        },
+                        "mca": {
+                            "market": {
+                                "name": "HR_PROFESSIONALS",
+                                "validchannels": [
+                                    {
+                                        "channeltype": "WEB"
+                                    },
+                                    {
+                                        "channeltype": "HR_MAGAZINES"
+                                    }
+                                ],
+                                "size": 98
+                            },
+                            "channel": {
+                                "channeltype": "WEB"
+                            },
+                            "adbudget": 0,
+                            "solutionofferlist": [
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Employee_Training_Services"
+                                        },
+                                        {
+                                            "name": "Talent_Acquisition_Consultation"
+                                        }
+                                    ],
+                                    "price": 8000,
+                                    "ad": null
+                                },
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Workplace_Wellness_Programs"
+                                        },
+                                        {
+                                            "name": "Employee_Relations_Consultancy"
+                                        }
+                                    ],
+                                    "price": 4500,
+                                    "ad": null
+                                }
+                            ],
+                            "solutionorderlist": [
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Employee_Training_Services"
+                                        },
+                                        {
+                                            "name": "Talent_Acquisition_Consultation"
+                                        }
+                                    ],
+                                    "price": 8000,
+                                    "ad": null
+                                }
+                            ]
+                        },
+                        "status": "in process"
+                    }
+                ],
+                "markets": {
+                    "name": "HR Professionals",
+                    "validchannels": [
+                        {
+                            "channeltype": "WEB"
+                        },
+                        {
+                            "channeltype": "HR_MAGAZINES"
+                        }
+                    ],
+                    "size": 94
+                }
+            },
+            {
+                "person": {
+                    "id": "1016",
+                    "firstName": "Olivia",
+                    "lastName": "Harris",
+                    "age": 32,
+                    "occupation": "Financial Analyst"
+                },
+                "orders": [
+                    {
+                        "orderitems": [
+                            {
+                                "selectedproduct": {
+                                    "name": "Financial_Consultation",
+                                    "floorPrice": 1500,
+                                    "ceilingPrice": 8000,
+                                    "targetPrice": 4000
+                                },
+                                "actualPrice": 5500,
+                                "quantity": 1,
+                                "customerID": "1016",
+                                "marketName": "FINANCE_PROFESSIONALS",
+                                "channel": "FINANCE_MAGAZINES"
+                            },
+                            {
+                                "selectedproduct": {
+                                    "name": "Investment_Strategy_Services",
+                                    "floorPrice": 2000,
+                                    "ceilingPrice": 10000,
+                                    "targetPrice": 5000
+                                },
+                                "actualPrice": 8000,
+                                "quantity": 1,
+                                "customerID": "1016",
+                                "marketName": "FINANCE_PROFESSIONALS",
+                                "channel": "FINANCE_MAGAZINES"
+                            }
+                        ],
+                        "salesperson": {
+                            "salesorders": [
+                                {
+                                    "productName": "Financial_Consultation",
+                                    "soldPrice": 5500,
+                                    "quantity": 1,
+                                    "customerID": "1016",
+                                    "marketName": "FINANCE_PROFESSIONALS",
+                                    "channel": "FINANCE_MAGAZINES"
+                                },
+                                {
+                                    "productName": "Investment_Strategy_Services",
+                                    "soldPrice": 8000,
+                                    "quantity": 1,
+                                    "customerID": "1016",
+                                    "marketName": "FINANCE_PROFESSIONALS",
+                                    "channel": "FINANCE_MAGAZINES"
+                                }
+                            ],
+                            "person": {
+                                "id": "115",
+                                "firstName": "Ethan",
+                                "lastName": "Perry",
+                                "age": 34,
+                                "occupation": "Sales"
+                            }
+                        },
+                        "mca": {
+                            "market": {
+                                "name": "FINANCE_PROFESSIONALS",
+                                "validchannels": [
+                                    {
+                                        "channeltype": "FINANCE_MAGAZINES"
+                                    },
+                                    {
+                                        "channeltype": "WEBINARS"
+                                    }
+                                ],
+                                "size": 125
+                            },
+                            "channel": {
+                                "channeltype": "FINANCE_MAGAZINES"
+                            },
+                            "adbudget": 0,
+                            "solutionofferlist": [
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Financial_Consultation"
+                                        },
+                                        {
+                                            "name": "Investment_Strategy_Services"
+                                        }
+                                    ],
+                                    "price": 9500,
+                                    "ad": null
+                                },
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Tax_Planning_Services"
+                                        },
+                                        {
+                                            "name": "Retirement_Planning_Advice"
+                                        }
+                                    ],
+                                    "price": 6000,
+                                    "ad": null
+                                }
+                            ],
+                            "solutionorderlist": [
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Financial_Consultation"
+                                        },
+                                        {
+                                            "name": "Investment_Strategy_Services"
+                                        }
+                                    ],
+                                    "price": 9500,
+                                    "ad": null
+                                }
+                            ]
+                        },
+                        "status": "in process"
+                    }
+                ],
+                "markets": {
+                    "name": "Finance Professionals",
+                    "validchannels": [
+                        {
+                            "channeltype": "FINANCE_MAGAZINES"
+                        },
+                        {
+                            "channeltype": "WEBINARS"
+                        }
+                    ],
+                    "size": 124
+                }
+            },
+            {
+                "person": {
+                    "id": "1017",
+                    "firstName": "Noah",
+                    "lastName": "Hill",
+                    "age": 29,
+                    "occupation": "Data Scientist"
+                },
+                "orders": [
+                    {
+                        "orderitems": [
+                            {
+                                "selectedproduct": {
+                                    "name": "Data_Analysis_Services",
+                                    "floorPrice": 2000,
+                                    "ceilingPrice": 10000,
+                                    "targetPrice": 5000
+                                },
+                                "actualPrice": 8000,
+                                "quantity": 1,
+                                "customerID": "1017",
+                                "marketName": "DATA_PROFESSIONALS",
+                                "channel": "WEB"
+                            },
+                            {
+                                "selectedproduct": {
+                                    "name": "Machine_Learning_Consultation",
+                                    "floorPrice": 2500,
+                                    "ceilingPrice": 12000,
+                                    "targetPrice": 6000
+                                },
+                                "actualPrice": 10000,
+                                "quantity": 1,
+                                "customerID": "1017",
+                                "marketName": "DATA_PROFESSIONALS",
+                                "channel": "WEB"
+                            }
+                        ],
+                        "salesperson": {
+                            "salesorders": [
+                                {
+                                    "productName": "Data_Analysis_Services",
+                                    "soldPrice": 8000,
+                                    "quantity": 1,
+                                    "customerID": "1017",
+                                    "marketName": "DATA_PROFESSIONALS",
+                                    "channel": "WEB"
+                                },
+                                {
+                                    "productName": "Machine_Learning_Consultation",
+                                    "soldPrice": 10000,
+                                    "quantity": 1,
+                                    "customerID": "1017",
+                                    "marketName": "DATA_PROFESSIONALS",
+                                    "channel": "WEB"
+                                }
+                            ],
+                            "person": {
+                                "id": "116",
+                                "firstName": "Ava",
+                                "lastName": "Baker",
+                                "age": 31,
+                                "occupation": "Sales"
+                            }
+                        },
+                        "mca": {
+                            "market": {
+                                "name": "DATA_PROFESSIONALS",
+                                "validchannels": [
+                                    {
+                                        "channeltype": "WEB"
+                                    },
+                                    {
+                                        "channeltype": "DATA_SCIENCE_CONFERENCES"
+                                    }
+                                ],
+                                "size": 214
+                            },
+                            "channel": {
+                                "channeltype": "WEB"
+                            },
+                            "adbudget": 0,
+                            "solutionofferlist": [
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Data_Analysis_Services"
+                                        },
+                                        {
+                                            "name": "Machine_Learning_Consultation"
+                                        }
+                                    ],
+                                    "price": 12000,
+                                    "ad": null
+                                },
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Big_Data_Solutions"
+                                        },
+                                        {
+                                            "name": "Predictive_Modeling_Software"
+                                        }
+                                    ],
+                                    "price": 7500,
+                                    "ad": null
+                                }
+                            ],
+                            "solutionorderlist": [
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Data_Analysis_Services"
+                                        },
+                                        {
+                                            "name": "Machine_Learning_Consultation"
+                                        }
+                                    ],
+                                    "price": 12000,
+                                    "ad": null
+                                }
+                            ]
+                        },
+                        "status": "in process"
+                    }
+                ],
+                "markets": {
+                    "name": "Data Professionals",
+                    "validchannels": [
+                        {
+                            "channeltype": "WEB"
+                        },
+                        {
+                            "channeltype": "DATA_SCIENCE_CONFERENCES"
+                        }
+                    ],
+                    "size": 162
+                }
+            },
+            {
+                "person": {
+                    "id": "1018",
+                    "firstName": "Sophia",
+                    "lastName": "Cooper",
+                    "age": 26,
+                    "occupation": "Marketing Specialist"
+                },
+                "orders": [
+                    {
+                        "orderitems": [
+                            {
+                                "selectedproduct": {
+                                    "name": "Digital_Marketing_Campaign",
+                                    "floorPrice": 1000,
+                                    "ceilingPrice": 5000,
+                                    "targetPrice": 2500
+                                },
+                                "actualPrice": 3000,
+                                "quantity": 1,
+                                "customerID": "1018",
+                                "marketName": "MARKETING_PROFESSIONALS",
+                                "channel": "SOCIAL_MEDIA"
+                            },
+                            {
+                                "selectedproduct": {
+                                    "name": "Brand_Consultation",
+                                    "floorPrice": 1500,
+                                    "ceilingPrice": 8000,
+                                    "targetPrice": 4000
+                                },
+                                "actualPrice": 5500,
+                                "quantity": 1,
+                                "customerID": "1018",
+                                "marketName": "MARKETING_PROFESSIONALS",
+                                "channel": "SOCIAL_MEDIA"
+                            }
+                        ],
+                        "salesperson": {
+                            "salesorders": [
+                                {
+                                    "productName": "Digital_Marketing_Campaign",
+                                    "soldPrice": 3000,
+                                    "quantity": 1,
+                                    "customerID": "1018",
+                                    "marketName": "MARKETING_PROFESSIONALS",
+                                    "channel": "SOCIAL_MEDIA"
+                                },
+                                {
+                                    "productName": "Brand_Consultation",
+                                    "soldPrice": 5500,
+                                    "quantity": 1,
+                                    "customerID": "1018",
+                                    "marketName": "MARKETING_PROFESSIONALS",
+                                    "channel": "SOCIAL_MEDIA"
+                                }
+                            ],
+                            "person": {
+                                "id": "117",
+                                "firstName": "Lucas",
+                                "lastName": "Graham",
+                                "age": 28,
+                                "occupation": "Sales"
+                            }
+                        },
+                        "mca": {
+                            "market": {
+                                "name": "MARKETING_PROFESSIONALS",
+                                "validchannels": [
+                                    {
+                                        "channeltype": "SOCIAL_MEDIA"
+                                    },
+                                    {
+                                        "channeltype": "MARKETING_CONFERENCES"
+                                    }
+                                ],
+                                "size": 261
+                            },
+                            "channel": {
+                                "channeltype": "SOCIAL_MEDIA"
+                            },
+                            "adbudget": 0,
+                            "solutionofferlist": [
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Digital_Marketing_Campaign"
+                                        },
+                                        {
+                                            "name": "Brand_Consultation"
+                                        }
+                                    ],
+                                    "price": 8500,
+                                    "ad": null
+                                },
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "SEO_Services"
+                                        },
+                                        {
+                                            "name": "Marketing_Analytics_Tool"
+                                        }
+                                    ],
+                                    "price": 5000,
+                                    "ad": null
+                                }
+                            ],
+                            "solutionorderlist": [
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Digital_Marketing_Campaign"
+                                        },
+                                        {
+                                            "name": "Brand_Consultation"
+                                        }
+                                    ],
+                                    "price": 8500,
+                                    "ad": null
+                                }
+                            ]
+                        },
+                        "status": "in process"
+                    }
+                ],
+                "markets": {
+                    "name": "Marketing Professionals",
+                    "validchannels": [
+                        {
+                            "channeltype": "SOCIAL_MEDIA"
+                        },
+                        {
+                            "channeltype": "MARKETING_CONFERENCES"
+                        }
+                    ],
+                    "size": 172
+                }
+            },
+            {
+                "person": {
+                    "id": "1019",
+                    "firstName": "Mia",
+                    "lastName": "Fisher",
+                    "age": 30,
+                    "occupation": "Healthcare Professional"
+                },
+                "orders": [
+                    {
+                        "orderitems": [
+                            {
+                                "selectedproduct": {
+                                    "name": "Health_Consultation_Services",
+                                    "floorPrice": 1500,
+                                    "ceilingPrice": 8000,
+                                    "targetPrice": 4000
+                                },
+                                "actualPrice": 5500,
+                                "quantity": 1,
+                                "customerID": "1019",
+                                "marketName": "HEALTHCARE_PROFESSIONALS",
+                                "channel": "WEB"
+                            },
+                            {
+                                "selectedproduct": {
+                                    "name": "Wellness_Programs",
+                                    "floorPrice": 1000,
+                                    "ceilingPrice": 5000,
+                                    "targetPrice": 2500
+                                },
+                                "actualPrice": 3000,
+                                "quantity": 1,
+                                "customerID": "1019",
+                                "marketName": "HEALTHCARE_PROFESSIONALS",
+                                "channel": "WEB"
+                            }
+                        ],
+                        "salesperson": {
+                            "salesorders": [
+                                {
+                                    "productName": "Health_Consultation_Services",
+                                    "soldPrice": 5500,
+                                    "quantity": 1,
+                                    "customerID": "1019",
+                                    "marketName": "HEALTHCARE_PROFESSIONALS",
+                                    "channel": "WEB"
+                                },
+                                {
+                                    "productName": "Wellness_Programs",
+                                    "soldPrice": 3000,
+                                    "quantity": 1,
+                                    "customerID": "1019",
+                                    "marketName": "HEALTHCARE_PROFESSIONALS",
+                                    "channel": "WEB"
+                                }
+                            ],
+                            "person": {
+                                "id": "118",
+                                "firstName": "Aiden",
+                                "lastName": "Cook",
+                                "age": 32,
+                                "occupation": "Sales"
+                            }
+                        },
+                        "mca": {
+                            "market": {
+                                "name": "HEALTHCARE_PROFESSIONALS",
+                                "validchannels": [
+                                    {
+                                        "channeltype": "WEB"
+                                    },
+                                    {
+                                        "channeltype": "HEALTH_MAGAZINES"
+                                    }
+                                ],
+                                "size": 721
+                            },
+                            "channel": {
+                                "channeltype": "WEB"
+                            },
+                            "adbudget": 0,
+                            "solutionofferlist": [
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Health_Consultation_Services"
+                                        },
+                                        {
+                                            "name": "Wellness_Programs"
+                                        }
+                                    ],
+                                    "price": 8500,
+                                    "ad": null
+                                },
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Nutritional_Supplements"
+                                        },
+                                        {
+                                            "name": "Fitness_Training_Apps"
+                                        }
+                                    ],
+                                    "price": 5000,
+                                    "ad": null
+                                }
+                            ],
+                            "solutionorderlist": [
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Health_Consultation_Services"
+                                        },
+                                        {
+                                            "name": "Wellness_Programs"
+                                        }
+                                    ],
+                                    "price": 8500,
+                                    "ad": null
+                                }
+                            ]
+                        },
+                        "status": "in process"
+                    }
+                ],
+                "markets": {
+                    "name": "Healthcare Professionals",
+                    "validchannels": [
+                        {
+                            "channeltype": "WEB"
+                        },
+                        {
+                            "channeltype": "HEALTH_MAGAZINES"
+                        }
+                    ],
+                    "size": 615
+                }
+            },
+            {
+                "person": {
+                    "id": "1020",
+                    "firstName": "Liam",
+                    "lastName": "Mitchell",
+                    "age": 35,
+                    "occupation": "Educator"
+                },
+                "orders": [
+                    {
+                        "orderitems": [
+                            {
+                                "selectedproduct": {
+                                    "name": "Educational_Consultation",
+                                    "floorPrice": 1500,
+                                    "ceilingPrice": 8000,
+                                    "targetPrice": 4000
+                                },
+                                "actualPrice": 5500,
+                                "quantity": 1,
+                                "customerID": "1020",
+                                "marketName": "EDUCATORS",
+                                "channel": "WEB"
+                            },
+                            {
+                                "selectedproduct": {
+                                    "name": "Online_Learning_Platforms",
+                                    "floorPrice": 1000,
+                                    "ceilingPrice": 5000,
+                                    "targetPrice": 2500
+                                },
+                                "actualPrice": 3000,
+                                "quantity": 1,
+                                "customerID": "1020",
+                                "marketName": "EDUCATORS",
+                                "channel": "WEB"
+                            }
+                        ],
+                        "salesperson": {
+                            "salesorders": [
+                                {
+                                    "productName": "Educational_Consultation",
+                                    "soldPrice": 5500,
+                                    "quantity": 1,
+                                    "customerID": "1020",
+                                    "marketName": "EDUCATORS",
+                                    "channel": "WEB"
+                                },
+                                {
+                                    "productName": "Online_Learning_Platforms",
+                                    "soldPrice": 3000,
+                                    "quantity": 1,
+                                    "customerID": "1020",
+                                    "marketName": "EDUCATORS",
+                                    "channel": "WEB"
+                                }
+                            ],
+                            "person": {
+                                "id": "119",
+                                "firstName": "Ella",
+                                "lastName": "Bailey",
+                                "age": 29,
+                                "occupation": "Sales"
+                            }
+                        },
+                        "mca": {
+                            "market": {
+                                "name": "EDUCATORS",
+                                "validchannels": [
+                                    {
+                                        "channeltype": "WEB"
+                                    },
+                                    {
+                                        "channeltype": "EDUCATIONAL_CONFERENCES"
+                                    }
+                                ],
+                                "size": 251
+                            },
+                            "channel": {
+                                "channeltype": "WEB"
+                            },
+                            "adbudget": 0,
+                            "solutionofferlist": [
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Educational_Consultation"
+                                        },
+                                        {
+                                            "name": "Online_Learning_Platforms"
+                                        }
+                                    ],
+                                    "price": 8500,
+                                    "ad": null
+                                },
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Teacher_Training_Courses"
+                                        },
+                                        {
+                                            "name": "Digital_Classroom_Tools"
+                                        }
+                                    ],
+                                    "price": 5000,
+                                    "ad": null
+                                }
+                            ],
+                            "solutionorderlist": [
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Educational_Consultation"
+                                        },
+                                        {
+                                            "name": "Online_Learning_Platforms"
+                                        }
+                                    ],
+                                    "price": 8500,
+                                    "ad": null
+                                }
+                            ]
+                        },
+                        "status": "in process"
+                    }
+                ],
+                "markets": {
+                    "name": "Educators",
+                    "validchannels": [
+                        {
+                            "channeltype": "WEB"
+                        },
+                        {
+                            "channeltype": "EDUCATIONAL_CONFERENCES"
+                        }
+                    ],
+                    "size": 121
+                }
+            },
+            {
+                "person": {
+                    "id": "1021",
+                    "firstName": "Amelia",
+                    "lastName": "Ward",
+                    "age": 27,
+                    "occupation": "Human Resources Specialist"
+                },
+                "orders": [
+                    {
+                        "orderitems": [
+                            {
+                                "selectedproduct": {
+                                    "name": "Employee_Wellness_Programs",
+                                    "floorPrice": 1000,
+                                    "ceilingPrice": 5000,
+                                    "targetPrice": 2500
+                                },
+                                "actualPrice": 3000,
+                                "quantity": 1,
+                                "customerID": "1021",
+                                "marketName": "HR_PROFESSIONALS",
+                                "channel": "EMAIL"
+                            },
+                            {
+                                "selectedproduct": {
+                                    "name": "Leadership_Training_Courses",
+                                    "floorPrice": 2000,
+                                    "ceilingPrice": 10000,
+                                    "targetPrice": 5000
+                                },
+                                "actualPrice": 8000,
+                                "quantity": 1,
+                                "customerID": "1021",
+                                "marketName": "HR_PROFESSIONALS",
+                                "channel": "EMAIL"
+                            }
+                        ],
+                        "salesperson": {
+                            "salesorders": [
+                                {
+                                    "productName": "Employee_Wellness_Programs",
+                                    "soldPrice": 3000,
+                                    "quantity": 1,
+                                    "customerID": "1021",
+                                    "marketName": "HR_PROFESSIONALS",
+                                    "channel": "EMAIL"
+                                },
+                                {
+                                    "productName": "Leadership_Training_Courses",
+                                    "soldPrice": 8000,
+                                    "quantity": 1,
+                                    "customerID": "1021",
+                                    "marketName": "HR_PROFESSIONALS",
+                                    "channel": "EMAIL"
+                                }
+                            ],
+                            "person": {
+                                "id": "120",
+                                "firstName": "Jackson",
+                                "lastName": "Fisher",
+                                "age": 35,
+                                "occupation": "Sales"
+                            }
+                        },
+                        "mca": {
+                            "market": {
+                                "name": "HR_PROFESSIONALS",
+                                "validchannels": [
+                                    {
+                                        "channeltype": "EMAIL"
+                                    },
+                                    {
+                                        "channeltype": "HR_CONFERENCES"
+                                    }
+                                ],
+                                "size": 212
+                            },
+                            "channel": {
+                                "channeltype": "EMAIL"
+                            },
+                            "adbudget": 0,
+                            "solutionofferlist": [
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Employee_Wellness_Programs"
+                                        },
+                                        {
+                                            "name": "Leadership_Training_Courses"
+                                        }
+                                    ],
+                                    "price": 8500,
+                                    "ad": null
+                                },
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Talent_Acquisition_Services"
+                                        },
+                                        {
+                                            "name": "HR_Software_Solutions"
+                                        }
+                                    ],
+                                    "price": 5000,
+                                    "ad": null
+                                }
+                            ],
+                            "solutionorderlist": [
+                                {
+                                    "offeredProducts": [
+                                        {
+                                            "name": "Employee_Wellness_Programs"
+                                        },
+                                        {
+                                            "name": "Leadership_Training_Courses"
+                                        }
+                                    ],
+                                    "price": 8500,
+                                    "ad": null
+                                }
+                            ]
+                        },
+                        "status": "in process"
+                    }
+                ],
+                "markets": {
+                    "name": "HR Professionals",
+                    "validchannels": [
+                        {
+                            "channeltype": "EMAIL"
+                        },
+                        {
+                            "channeltype": "HR_CONFERENCES"
+                        }
+                    ],
+                    "size": 415
+                }
+            }
+        ]
+    
+}
